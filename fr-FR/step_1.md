@@ -2,7 +2,9 @@ La bibliothèque p5 te permet de créer des dessins, des animations et des jeux 
 
 --- code ---
 ---
-language: python filename: main.py line_numbers: true
+language: python 
+filename: main.py 
+line_numbers: true
 line_number_start: 4
 ---
 
