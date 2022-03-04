@@ -1,4 +1,4 @@
-The p5 library allows you to create drawings, animations and simple games.
+p5ライブラリを使用すると、図、アニメーション、および簡単なゲームを作成できます。
 
 --- code ---
 ---
@@ -11,11 +11,11 @@ from p5 import *
 --- /code ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-The <span style="color: #0faeb0; font-weight: bold;"> p5 library </span> provides graphic functions for drawing, animation and data visualisation. Artists, animators and designers use the p5 Processing library for creative coding.</p>
+<span style="color: #0faeb0; font-weight: bold;"> p5ライブラリ </span> は、図、アニメーション、およびデータ視覚化のためのグラフィック機能を提供します。 アーティスト、アニメーター、およびデザイナーは、p5 Processingライブラリを使用して創造的コーディングを行います。</p>
 
-There are two functions that every project using `p5` needs to **define**:
-+ **setup()** - runs once when the program starts to set properties like screen size
-+ **draw()** - runs repeatedly and defines what will be sketched
+`p5`を使用するプロジェクトはいずれも2つの関数を**定義**する必要があります。
++ **setup()** - 画面サイズなどのプロパティを設定するために、プログラムの開始時に1回だけ実行されます
++ **draw()** - 繰り返し実行され、何を描くか定義します
 
-You also need to **call** the `run()` function:
-+ **run()** - starts the p5 project by calling the `setup()` function followed by repeatedly calling the `draw()` function
+また、`run()`関数を**呼び出す**ことも必要です。
++ **run()** - `setup()`関数を呼び出してp5プロジェクトを開始し、 `draw()`関数を繰り返し呼び出します
