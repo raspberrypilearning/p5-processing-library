@@ -1,4 +1,4 @@
-The p5 library allows you to create drawings, animations and simple games.
+Η βιβλιοθήκη p5 σου επιτρέπει να δημιουργείς σχέδια, κινούμενα σχέδια και απλά παιχνίδια.
 
 --- code ---
 ---
@@ -11,11 +11,11 @@ from p5 import *
 --- /code ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-The <span style="color: #0faeb0; font-weight: bold;"> p5 library </span> provides graphic functions for drawing, animation and data visualisation. Artists, animators and designers use the p5 Processing library for creative coding.</p>
+Η <span style="color: #0faeb0; font-weight: bold;">βιβλιοθήκη p5</span> παρέχει συναρτήσεις γραφικών για σχεδίαση, κινούμενα σχέδια και οπτικοποίηση δεδομένων. Καλλιτέχνες, δημιουργοί κινουμένων σχεδίων και σχεδιαστές χρησιμοποιούν τη βιβλιοθήκη επεξεργασιας p5 για δημιουργικό προγραμματισμό.</p>
 
-There are two functions that every project using `p5` needs to **define**:
-+ **setup()** - runs once when the program starts to set properties like screen size
-+ **draw()** - runs repeatedly and defines what will be sketched
+Υπάρχουν δύο συναρτήσεις που κάθε έργο που χρησιμοποιεί το `p5` χρειάζεται να **ορίσει**:
++ **setup()** - εκτελείται μία φορά όταν το πρόγραμμα ξεκινάει ώστε να ορίζει ιδιότητες όπως το μέγεθος της οθόνης
++ **draw()** - εκτελείται επανειλημμένα και ορίζει το τι θα σχεδιαστεί
 
-You also need to **call** the `run()` function:
-+ **run()** - starts the p5 project by calling the `setup()` function followed by repeatedly calling the `draw()` function
+Χρειάζεται επίσης να **καλέσεις** τη συνάρτηση `run()`:
++ **run()** - ξεκινά το έργο p5 καλώντας τη συνάρτηση `setup()` ακολουθούμενη από επανειλημμένη κλήση της συνάρτησης `draw()`
