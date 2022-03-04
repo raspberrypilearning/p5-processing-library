@@ -1,4 +1,4 @@
-The p5 library allows you to create drawings, animations and simple games.
+La biblioteca p5 te permite crear dibujos, animaciones y juegos sencillos.
 
 --- code ---
 ---
@@ -11,11 +11,11 @@ from p5 import *
 --- /code ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-The <span style="color: #0faeb0; font-weight: bold;"> p5 library </span> provides graphic functions for drawing, animation and data visualisation. Artists, animators and designers use the p5 Processing library for creative coding.</p>
+La <span style="color: #0faeb0; font-weight: bold;"> biblioteca p5 </span> proporciona funciones gráficas para dibujo, animación y visualización de datos. Artistas, animadores y diseñadores utilizan la biblioteca de procesamiento p5 para hace una codificación creativa.</p>
 
-There are two functions that every project using `p5` needs to **define**:
-+ **setup()** - runs once when the program starts to set properties like screen size
-+ **draw()** - runs repeatedly and defines what will be sketched
+Hay dos funciones que cada proyecto en el que se usa `p5` necesita **definir**:
++ **setup()** - se ejecuta una única vez cuando el programa comienza para configurar propiedades como el tamaño de la pantalla
++ **draw()** - se ejecuta repetidamente y define lo que se dibujará
 
-You also need to **call** the `run()` function:
-+ **run()** - starts the p5 project by calling the `setup()` function followed by repeatedly calling the `draw()` function
+También necesitarás **llamar** a la función `run()`:
++ **run()** - inicia el proyecto p5 primero llamando a la función `setup()` y luego llamando repetidamente a la función `draw()`
