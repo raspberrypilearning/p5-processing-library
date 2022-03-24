@@ -2,7 +2,7 @@
 
 --- code ---
 ---
-language: python 
+language: python
 filename: main.py 
 line_numbers: true
 line_number_start: 4
@@ -21,4 +21,3 @@ from p5 import *
 
 تحتاج أيضًا إلى **call** الدالة `run()`:
 + **run()** - يبدأ مشروع p5 باستدعاء الدالة `setup()` متبوعة باستدعاء الدالة `draw()` بشكل متكرر
-
