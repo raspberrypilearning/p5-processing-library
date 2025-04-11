@@ -1,4 +1,4 @@
-The p5 library allows you to create drawings, animations and simple games.
+p5 ಗ್ರಂಥಾಲಯ ನಿಮಗೆ ಚಿತ್ರಗಳನ್ನು, ಅನಿಮೇಶನ್‌ಗಳನ್ನು ಮತ್ತು ಸರಳ ಆಟಗಳನ್ನು ರಚಿಸಲು ಅನುವುಮಾಡಿಕೊಡುತ್ತದೆ.
 
 --- code ---
 ---
@@ -11,11 +11,11 @@ from p5 import *
 --- /code ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-The <span style="color: #0faeb0; font-weight: bold;"> p5 library </span> provides graphic functions for drawing, animation and data visualisation. Artists, animators and designers use the p5 Processing library for creative coding.</p>
+<span style="color: #0faeb0; font-weight: bold;"> p5 library </span> ಯು ಚಿತ್ರಗಳಿಗೆ, ಅನಿಮೇಶನ್‌ಗಳಿಗೆ, ಮತ್ತು ದತ್ತಾಂಶ ದೃಶ್ಯೀಕರಣಗಳಿಗೆ ಗ್ರಾಫಿಕ್‌ ಫಂಕ್ಷನ್‌ಗಳನ್ನು ಒದಗಿಸುತ್ತದೆ. ಕಲಾಕಾರರು, ಅನಿಮೇಟರ್‌ಗಳು, ಮತ್ತು ವಿನ್ಯಾಸಕಾರರು ಕೋಡಿಂಗ್‌ ರಚಿಸಲು p5 ಪ್ರೋಸೆಸ್ಸಿಂಗ್‌ ಗ್ರಂಥಾಲು ಉಪಯೋಗಿಸುತ್ತಾರೆ.</p>
 
-There are two functions that every project using `p5` needs to **define**:
-+ **setup()** - runs once when the program starts to set properties like screen size
-+ **draw()** - runs repeatedly and defines what will be sketched
+`p5` ಉಪಯೋಗಿಸುವ ಪ್ರತಿಯೊಂದು ಪ್ರಾಜೆಕ್ಟ್‌ **define** ಮಾಡಬೇಕಾದ ಎರಡು ಫಂಕ್ಷನ್‌ಗಳಿವೆ:
++ **setup()** - ಪರದೆಯ ಗಾತ್ರದಂತಹ ಗುಣಲಕ್ಷಣಗಳನ್ನು ಹೊಂದಿಸಲು ಪ್ರೋಗ್ರಾಮ್‌ ಪ್ರಾರಂಭಿಸಿದಾಗ ರನ್‌ ಆಗುತ್ತದೆ
++ **draw()** - ಪುನರಾವರ್ತಿತವಾಗಿ ರನ್‌ ಆಗುತ್ತದೆ ಮತ್ತು ಏನು ಚಿತ್ರಿಸಲಾಗುತ್ತದೆ ಎಂಬುವುದನ್ನು ವ್ಯಾಖ್ಯಾನಿಸುತ್ತದೆ
 
-You also need to **call** the `run()` function:
-+ **run()** - starts the p5 project by calling the `setup()` function followed by repeatedly calling the `draw()` function
+ನೀವು `run()` ಫಂಕ್ಷನ್‌ನ್ನು ಸಹ **call** ಮಾಡಬೇಕಾಗುತ್ತದೆ:
++ **run()** - `setup()` ಫಂಕ್ಷನ್‌ನ್ನು ಆಮಂತ್ರಿಸಿ ನಂತರ `draw()` ಫಂಕ್ಷನ್‌ನ್ನು ಪದೇ ಪದೇ ಆಮಂತ್ರಿಸಿ p5 ಪ್ರಾಜೆಕ್ಟ್‌ನ್ನು ಪ್ರಾರಂಭಿಸುತ್ತದೆ
